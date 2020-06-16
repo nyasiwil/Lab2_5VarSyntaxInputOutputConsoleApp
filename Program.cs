@@ -14,7 +14,7 @@ namespace Lab2_5VarSyntaxInputOutputConsoleApp
             int intFirstNumber = 0;
             int intSecondNumber = 0;
             int intResult = 0;
-            double dblREsult = 0;
+            double dblResult = 0;
 
             Console.WriteLine("Enter your First Number: ");
             intFirstNumber = Convert.ToInt32(Console.ReadLine());
@@ -35,7 +35,7 @@ namespace Lab2_5VarSyntaxInputOutputConsoleApp
             Console.WriteLine($"{intFirstNumber} multiplied by {intSecondNumber} is {intResult}");
 
             //Dividing
-            dblResult = intFirstNumber / Convert.ToDouble(intSecondNumber;
+            dblResult = intFirstNumber / Convert.ToDouble(intSecondNumber);
             Console.WriteLine($"{intFirstNumber} divided by {intSecondNumber} is {dblResult}");
 
 
